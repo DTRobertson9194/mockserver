@@ -27,7 +27,7 @@ class MockServerUITests: XCTestCase {
     }
     
     func testExample() {
-        let areUsernamesLoaded = XCUIApplication().tables.cells.staticTexts["Dalton"].exists
+        let areUsernamesLoaded = XCUIApplication().tables.cells.staticTexts["Dalton Robertson"].exists
         XCTAssertTrue(areUsernamesLoaded)
     }
     
