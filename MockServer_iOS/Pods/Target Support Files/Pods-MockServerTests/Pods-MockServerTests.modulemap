@@ -1,0 +1,6 @@
+framework module Pods_MockServerTests {
+  umbrella header "Pods-MockServerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
